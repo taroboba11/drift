@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drift</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="styles.css"
+    rel="stylesheet"
+  />
+  </head>
+<body>
+  <nav class="navbar">
+    <a href = "index.html"> <div class="logo">Drift</div></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="affirmations.html">Affirmations</a></li>
+      <li><a href="breathing.html">Breathing</a></li>
+      <li><a href="mood.html">Mood Helper</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="playlist.html">Playlist Generator</a></li>
+      <li><a href="activityquiz.html">Activity Quiz</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="intro" id="home">
+    <br>
+    <h1>Why Affirmations?</h1>
+    <p>Affirmations are positive statements that help reframe negative thoughts and build self-confidence. Repeating them regularly can boost your mood, reduce stress, and promote a healthier mindset by training your brain to focus on the good.</p>
+    <br>
+  </section>
+
+    <section class="intro" >
+          <h1 id="affirmation">Click the button for an affirmation!</h1>
+    <button class = "btn" onclick="showAffirmation()">Show Affirmation</button>
+    <br>
+    <br>
+    <button id="prevBtn" class = "btn" onclick="showPrevious()" disabled>Previous</button>
+    <br>
+    <br>
+    <button class = "btn"  onclick="clearAffirmation()">Clear</button>    
+  <br><br>
+    <p>Use these affirmations to boost your confidence, reduce stress, and create a positive mindset every day!</p>
+    <br>
+    <p>Pro Tip: It is recommended to spend a few seconds reflecting on the affirmation and seeing how it could apply to your life.</p>
+    <br>
+    <a href="https://www.verywellmind.com/positive-daily-affirmations-7097067" target = "_blank" class = "btn">Explore More Resources</a>
+
+  </section>
+    
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Drift</h3>
+        <p>One website for improving mental well-being.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="affirmations.html">Affirmations</a></li>
+          <li><a href="breathing.html">Breathing</a></li>
+          <li><a href="mood.html">Mood Helper</a></li>
+          <li><a href="mood.html">Games</a></li>
+          <li><a href="playlist.html">Playlist Generator</a></li>
+          <li><a href="activityquiz.html">Activity Quiz</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Drift Games</h4>
+        <ul>
+          <li><a href="game1.html">Color by Number</a></li>
+          <li><a href="game2.html">Mental Wellbeing Word Search</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Other Resources</h4>
+        <ul>
+          <li><a href="https://sdgs.un.org/goals/goal3" target="_blank">SDG Info</a></li>
+          <li><a href="https://www.nih.gov/health-information/your-healthiest-self-wellness-toolkits/emotional-wellness-toolkit" target="_blank">Emotional Wellness Resources</a></li>
+          <li><a href="https://neurolaunch.com/mental-wellness-resources/" target="_blank">More Resources</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <p>
+          <a href="mailto:tarabalaji11@gmail.com">
+            tarabalaji11@gmail.com
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="affirmations.js"></script>
+  </body>
+</html>
